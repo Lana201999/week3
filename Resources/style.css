@@ -7,18 +7,22 @@
     width: 150px;
 }
 .nav-style {
-    overflow: hidden;
-    background-color: #333;
+    overflow: hidden; 
     position: relative;
+    margin-bottom: 20px;
 }
-.nav-style a {
-    display: none;
-    color: white;
-    padding: 14px 16px;
+.nav-style #myLinks{
+    display: block;
+    background-color: gray;
+}
+.nav-style  a  {
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
     text-decoration: none;
     font-size: 17px;
-    display: block;  
-} 
+    border: solid black;
+    
+}
 .nav-style h1{
     text-align: right;
     font-size: 40px;
@@ -33,11 +37,20 @@
     font-size: 20px;
     padding:0 0 20px 20px;
 }
+
 .Style2 {
-   margin-bottom: 50px;
+    
+    margin-bottom: 50px;
 }
+.Style3 img{
+    width:250px;
+    height: 250px;  
+}
+
 footer{
     margin-top: 30px;
+    background-color: gray;
+    
 }
 .Style4 a{
     
@@ -67,15 +80,53 @@ footer{
         width:500px;
         
     }
-    .Style3 img{
-        width:250px;
-        height: 250px;
-    }
+    
     .Style4 a{
         display: block;
         text-align: center;
     }
         
+    .nav-style a {
+        
+        display: block;  
+    } 
+}
+@media(min-width:900px){
+    .icon{
+        display: none;
+    }
+    .nav-style #myLinks{  
+        margin-top: 100px;
+        padding: 5%;
+        text-align: right;
+        margin:50px;
+
+    }
+    .Style1{
+        display:flex;
+        float: right;
+        width: 50%;
+    }
+    .Style2 {
+        display:flex;
+        width: 300px;
+        height: 300px;
+        
+    }
+    .Style3 img{
+        margin: 10px;
+    }
+    
+    footer{
+        display: flex;
+    justify-content: center;
+    }
+    .cont{
+        margin:50px;
+    }
+
+
+    
 }
 
 
