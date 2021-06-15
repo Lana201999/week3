@@ -1,0 +1,81 @@
+/*  Add your styling here */
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Geneva, Tahoma, sans-serif;
+}
+
+.nav-style img{
+    width: 150px;
+}
+.nav-style {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+.nav-style a {
+    display: none;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;  
+} 
+.nav-style h1{
+    text-align: right;
+    font-size: 40px;
+    margin: 30px;
+    
+}
+.Style1 h2{
+    font-size: 40px;
+    padding:20px 0 10px 30px;
+}
+.Style1 p{
+    font-size: 20px;
+    padding:0 0 20px 20px;
+}
+.Style2 {
+   margin-bottom: 50px;
+}
+footer{
+    margin-top: 30px;
+}
+.Style4 a{
+    
+    text-decoration: none;
+    
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border: solid black;
+    border-radius: 5px;
+}
+
+
+@media(max-width:540px){
+    
+    .nav-style a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }  
+    .nav-style img{
+        width: 100px;
+    }
+    .Style2 img{
+        width:500px;
+        
+    }
+    .Style3 img{
+        width:250px;
+        height: 250px;
+    }
+    .Style4 a{
+        display: block;
+        text-align: center;
+    }
+        
+}
+
+
